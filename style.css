@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+}
+
+body{
+    margin: 0;
+
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2{
+    font-size:1.5rem;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.2rem;
+
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.dotted-hr{
+    border: dotted 5px white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 75px;
+}
+
+[class*="col-"]{
+    float:left;
+    padding:0px;
+}
+
+/* for mobile*/
+
+[class*="col-"]{
+    width:100%;
+}
+
+/* navbar desing starts here */
+
+.navbar{
+    background-color: #0c6168;
+    text-align: center;
+    padding:1% 5%;
+}
+
+.navbar h1{
+    color:white;
+    margin: 0;
+    padding: 10px;
+}
+
+.navbar-menu{
+    display:flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.navbar-menu a{
+    background-color: #40868b;
+    border-radius: 5px;
+    margin:7px 0px;
+    padding:10px;
+}
+
+.navbar-menu a:hover{
+    background-color: gray;
+}
+
+.navbar::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* navbar desing ends here */
+
+
+
+
