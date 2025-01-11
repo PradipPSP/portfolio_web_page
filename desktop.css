@@ -42,7 +42,7 @@
 
  /* navbar desing ends here */
 
-/* profile desing starts here */
+/* profile section desing starts here */
 
 
 .profile .top-weather-icon{
@@ -89,6 +89,25 @@
    margin-bottom:10px;
 }
 
-/* profile desing ends here */
+/* profile section desing ends here */
+
+/* aboute me section desing starts here */
+
+.aboute-me-image{
+   margin-top: 100px;
+}
+
+.aboute-me-image img{
+   width:250px;
+   height:270px;
+   border-radius: 50%;
+}
+
+.about-me-desc p{
+
+   text-align: justify;
+}
+
+/* about me section desing ends here */
 
  

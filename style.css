@@ -101,7 +101,7 @@ p{
 
 /* navbar desing ends here */
 
-/* profile desing starts here */
+/* profile section desing starts here */
 
 .profile{
     padding:100px 10px;
@@ -198,7 +198,46 @@ p{
     clear:both;
 }
 
-/* profile desing ends here */
+/* profile section desing ends here */
 
+/* aboute me section desing starts here */
 
+.aboute-me{
+    background-color: #39a4ac;
+    color:white;
+    padding: 1% 5%;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    
+}
+
+.aboute-me-image img{
+    border:3px solid white;
+    border-radius: 50%;
+    height: 220px;
+    width:200px;
+}
+
+.aboute-me p{text-align: center;}
+
+.aboute-me a{text-align: center;}
+
+.cv-button{
+    background-color: #052d2f;
+    color: white;
+    border-radius: 12px;
+    padding: 12px; 
+    font-size: 1rem;
+    text-align: center;
+    margin:10px;
+    cursor: pointer;
+}
+
+.aboute-me::after {
+    content: '';
+    display: table;
+    clear:both;
+}
+
+/* aboute me section desing ends here */
 
