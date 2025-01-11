@@ -42,5 +42,53 @@
 
  /* navbar desing ends here */
 
+/* profile desing starts here */
+
+
+.profile .top-weather-icon{
+   right:100px;
+   width: 120px;
+   transition: width 2s, transform 2s;
+   transition-timing-function: linear;
+
+}
+
+.profile .top-weather-icon:hover{
+   width:180px;
+   
+}
+
+.profile .bottom-weather-icon{
+   width:120px;
+   left:140px;
+   bottom:20px;
+   transition: width 2s, transform 2s;
+   transition-timing-function: linear;
+}
+
+.profile .bottom-weather-icon:hover{
+   width:180px;
+    
+}
+
+.profile-desc h1{
+  font-size:2.5rem;
+  transition: font-size 1s;
+  transition-timing-function: linear;
+}
+
+.profile-desc h1:hover{
+   font-size: 3rem;
+}
+
+.profile-desc p{
+   color:gray;
+   margin: 0 auto;
+   text-align: center;
+   width:50%;
+   margin-bottom:10px;
+}
+
+/* profile desing ends here */
 
  
