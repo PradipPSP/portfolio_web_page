@@ -292,6 +292,7 @@ p{
 .card-desc{
     font-size: 11px;
 }
+
 .card-desc h4{
     color: #fff;
     margin-bottom: 10px;
@@ -346,7 +347,6 @@ p{
     animation-timing-function: linear;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-
 }
 
 .skills-container li.html::after{
@@ -458,7 +458,7 @@ p{
 
 /*achievement-Contact section desing starts here*/
 
-.achivement-contact{
+.contact_desc{
     padding: 1% 5%;
     background-color: #39a4ac;
     color:white;
@@ -496,7 +496,7 @@ p{
 	cursor:pointer;
 }
 
-.achivement-contact::after{
+.contact_desc::after{
     content: '';
     display: table;
     clear:both;
@@ -522,3 +522,51 @@ p{
     
 }
 /*achievement-Contact section desing ends here*/
+
+
+/* footer section design starts here  */
+
+footer{
+    background-color: rgb(129, 119, 117);
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    line-height: 40px; 
+    align-items: center;
+
+}
+
+.copyright-text{
+    font-size: 1.2rem;
+    color: #fff;
+    margin-left: 65px;
+}
+
+
+.footer_desc{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+
+}
+
+.footer_desc> a{
+    padding: 0 20px;  
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+
+.footer_desc> a:hover{
+    border: 3px solid #fff;
+    background-color: #052d2f;
+    transform: scale(1.2); 
+    transition: 0.4s; 
+}
+
+footer::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+/* footer section design ends here  */
