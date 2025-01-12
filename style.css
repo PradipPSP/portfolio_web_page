@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 
+/* common codes starts here */
 
 *{
     box-sizing: border-box;
@@ -55,7 +56,10 @@ p{
     width:100%;
 }
 
-/* navbar desing starts here */
+/* common codes ends here */
+
+
+/* navbar section desing starts here */
 
 .navbar{
     background-color: #0c6168;
@@ -450,3 +454,71 @@ p{
     clear: both;
 }
 /*professional experience section desing ends here*/
+
+
+/*achievement-Contact section desing starts here*/
+
+.achivement-contact{
+    padding: 1% 5%;
+    background-color: #39a4ac;
+    color:white;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact input, textarea{
+    width: 100%;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    resize: none;
+}
+
+.contact button{
+    padding: 10px;
+    background-color: #052d2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 80px;
+    margin: 12px;
+	transition:0.3s;
+}
+
+.contact button:hover{
+    background:#252525;
+	cursor:pointer;
+}
+
+.achivement-contact::after{
+    content: '';
+    display: table;
+    clear:both;
+}
+
+.media-button{
+    text-align: center;
+}
+
+.media-button .btn{
+    background-color: #052d2f;
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius: 5px;
+    margin:15px;
+    
+}
+
+.media-button .btn:hover{
+
+    background-color:#252525;
+    
+}
+/*achievement-Contact section desing ends here*/
