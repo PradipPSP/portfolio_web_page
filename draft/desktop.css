@@ -1,0 +1,44 @@
+
+
+
+
+
+
+
+/*achievement-Contact desing starts here*/
+
+.achivement{
+   padding-right: 50px;
+}
+
+.contact button{
+   
+   width: 130px;
+   
+}
+
+.media-button .btn{
+
+   margin-top:100px;
+ 
+}
+
+/*achievement-Contact desing ends here*/
+
+
+/*footer desing starts here*/
+
+
+.footer-menu{
+   margin-top: 3px;
+}
+
+.footer-menu a{
+   display: inline;
+   font-size: 1.2rem;
+   background-color: transparent;
+   color: white;
+}
+
+
+/*footer desing ends here*/
