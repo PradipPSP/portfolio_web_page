@@ -9,72 +9,7 @@
 
 
 
-/*achievement-Contact desing starts here*/
 
-.achivement-contact{
-    padding: 1% 5%;
-    background-color: #39a4ac;
-    color:white;
-}
-
-.contact{
-    text-align: center;
-}
-
-.contact input, textarea{
-    width: 100%;
-    padding:10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    text-align: center;
-    resize: none;
-}
-
-.contact button{
-    padding: 10px;
-    background-color: #052d2f;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 15px;
-    font-weight: 600;
-    width: 80px;
-    margin: 12px;
-	transition:0.3s;
-}
-
-.contact button:hover{
-    background:#252525;
-	cursor:pointer;
-}
-
-.achivement-contact::after{
-    content: '';
-    display: table;
-    clear:both;
-}
-
-.media-button{
-    text-align: center;
-}
-
-.media-button .btn{
-    background-color: #052d2f;
-    width:50px;
-    height:50px;
-    border:none;
-    border-radius: 5px;
-    margin:15px;
-    
-}
-
-.media-button .btn:hover{
-
-    background-color:#252525;
-    
-}
-/*achievement-Contact desing ends here*/
 
 
 /*footer desing starts here*/
@@ -97,7 +32,7 @@
     background-color: white;
     color:black;
     
-}
+
 .footer-menu a:hover{
 
     background-color: gray;

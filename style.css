@@ -160,7 +160,7 @@ p{
 
 .loding_animation {
     position: absolute;
-    right: 115px;
+    right: 40px;
     margin-top: 10px;
     border: 8px solid #f5eded;
     border-radius: 50%;
@@ -171,7 +171,7 @@ p{
     animation: spin 2s linear infinite;
 }
   
-  @keyframes spin {
+@keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
@@ -260,6 +260,7 @@ p{
     transition: 0.3s;
     height: 750px;
     margin-right: 20px;
+    margin-top: 10px;
 }
 
 .professional-experience .card:hover{
@@ -486,7 +487,7 @@ p{
     border-radius: 5px;
     font-size: 15px;
     font-weight: 600;
-    width: 80px;
+    width: 140px;
     margin: 12px;
 	transition:0.3s;
 }
@@ -570,3 +571,4 @@ footer::after{
     display: table;
 }
 /* footer section design ends here  */
+

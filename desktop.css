@@ -121,13 +121,13 @@
 /*professional experience section desing ends here*/
 
 
-/*achievement-Contact section desing starts here*/
+/*Contact section desing starts here*/
 
-.achivement{
+#contact-id{
    padding-right: 50px;
 }
 
-.contact button{
+#contact-id button{
    
    width: 130px;
    
@@ -139,5 +139,10 @@
  
 }
 
-/*achievement-Contact section desing ends here*/
+/*Contact section desing ends here*/
 
+
+/* footer design starts here */
+
+
+/* footer design ends here */
